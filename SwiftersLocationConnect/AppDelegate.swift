@@ -21,6 +21,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FIRApp.configure()
         
+        FIRAuth.auth()?.signIn(withEmail: "test@swiftersfirebaseconnect.com", password: "1234567", completion: <#T##FIRAuthResultCallback?##FIRAuthResultCallback?##(FIRUser?, Error?) -> Void#>)
+        
+        
+        //FIRAuth.auth()?.signIn(withEmail: "test@swiftersfirebaseconnect.com", password: "1234567", completion: <#T##FIRAuthResultCallback?##FIRAuthResultCallback?##(FIRUser?, Error?) -> Void#>)
+        /*
+        FIRAuth.auth()?.signInWithEmail( "test@swiftersfirebaseconnect.com",  password: "1234567", completion: { (user:FIRUser?, error:NSError?) in
+            if error == nil {
+            //  print(user?.email)
+            // }else{
+            //    print(error?.description)
+            }
+        })
+    */
         return true
     }
 

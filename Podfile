@@ -7,6 +7,7 @@ target 'SwiftersLocationConnect' do
 
   # Pods for SwiftersLocationConnect
   # pod 'Firebase'
+  # pod 'Firebase'
   pod 'Firebase/Core'
-
+  pod 'Firebase/Auth'
 end
