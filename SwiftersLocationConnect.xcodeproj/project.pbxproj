@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C7F1CDCDD425BBF8F4BC584 /* Pods_SwiftersLocationConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF765652CDA81B1033B4A40 /* Pods_SwiftersLocationConnect.framework */; };
 		BF318BC41DB712D60068B228 /* SwiftersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF318BC31DB712D60068B228 /* SwiftersTableViewController.swift */; };
+		BF318BC61DB719710068B228 /* UserToConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF318BC51DB719710068B228 /* UserToConnect.swift */; };
 		BF52253F1DB455DF007EB130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52253E1DB455DF007EB130 /* AppDelegate.swift */; };
 		BF5225441DB455DF007EB130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5225421DB455DF007EB130 /* Main.storyboard */; };
 		BF5225461DB455DF007EB130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5225451DB455DF007EB130 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		25D4E6C32BC9652418C6EED9 /* Pods-SwiftersLocationConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftersLocationConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftersLocationConnect/Pods-SwiftersLocationConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		BF318BC31DB712D60068B228 /* SwiftersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftersTableViewController.swift; sourceTree = "<group>"; };
+		BF318BC51DB719710068B228 /* UserToConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserToConnect.swift; sourceTree = "<group>"; };
 		BF52253B1DB455DE007EB130 /* SwiftersLocationConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftersLocationConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF52253E1DB455DF007EB130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5225431DB455DF007EB130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				BF52253E1DB455DF007EB130 /* AppDelegate.swift */,
+				BF318BC51DB719710068B228 /* UserToConnect.swift */,
 				BF318BC31DB712D60068B228 /* SwiftersTableViewController.swift */,
 				BF5225421DB455DF007EB130 /* Main.storyboard */,
 				BF5225451DB455DF007EB130 /* Assets.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF318BC61DB719710068B228 /* UserToConnect.swift in Sources */,
 				BF318BC41DB712D60068B228 /* SwiftersTableViewController.swift in Sources */,
 				BF52253F1DB455DF007EB130 /* AppDelegate.swift in Sources */,
 			);
