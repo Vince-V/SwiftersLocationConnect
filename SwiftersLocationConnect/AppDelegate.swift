@@ -17,24 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
         FIRApp.configure()
         
-        FIRAuth.auth()?.signIn(withEmail: "test@swiftersfirebaseconnect.com", password: "1234567", completion: <#T##FIRAuthResultCallback?##FIRAuthResultCallback?##(FIRUser?, Error?) -> Void#>)
-        
-        
-        //FIRAuth.auth()?.signIn(withEmail: "test@swiftersfirebaseconnect.com", password: "1234567", completion: <#T##FIRAuthResultCallback?##FIRAuthResultCallback?##(FIRUser?, Error?) -> Void#>)
-        /*
-        FIRAuth.auth()?.signInWithEmail( "test@swiftersfirebaseconnect.com",  password: "1234567", completion: { (user:FIRUser?, error:NSError?) in
-            if error == nil {
-            //  print(user?.email)
-            // }else{
-            //    print(error?.description)
+        FIRAuth.auth()?.signIn(withEmail:"test@swiftersfirebaseconnect.com", password: "1234567", completion: { (user, err) in
+            if let error = err {
+                print(error.localizedDescription)
+            } else {
+                
+                    print("Sucess")
+                
             }
         })
-    */
-        return true
+      
+        
+        /*
+        FIRAuth.auth()?.signIn(withEmail: "test@swiftersfirebaseconnect.com", password: "1234567", completion: { (user:FIRUser?, error:NSError?) in
+            if error == nil {
+                print(user?.email)
+            }else{
+                print(error.description)
+            }
+        })
+        */
+        
+          return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
